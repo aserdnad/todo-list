@@ -1,4 +1,5 @@
 import {useState,useEffect} from 'react';
+import {Link} from 'react-router-dom';
 
 const Todo = () => {
 
@@ -30,10 +31,12 @@ const Todo = () => {
         <div className="todos">
             <div className="mantener">
                     {lista && lista.map((hacer)=>(
+                    <Link to={`/specificlist/${hacer.id}`}>
                         <div className="todo-lista"  key={hacer.id}>
                             <h2 className="h2-todo">{hacer.titulo}</h2>
                             <p className="p-todo">{hacer.contenido}</p>
-                    </div>
+                        </div>
+                    </Link>
                 ))}     
             </div>   
         </div>

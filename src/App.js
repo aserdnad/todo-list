@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Todo from "./Todo";
 import NewToDo from "./NewToDo";
+import SpecificTodo from "./SpecificTodo";
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 
@@ -16,6 +17,9 @@ function App() {
             </Route>
             <Route path="/newtodo">
               <NewToDo/>
+            </Route>
+            <Route path="/specificlist/:id">
+              <SpecificTodo/>
             </Route>
           </Switch>
         </div>
