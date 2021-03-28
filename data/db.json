@@ -1,19 +1,29 @@
 {
-    "lista":[
-        {
-            "titulo":"Pagina web",
-            "contenido":"Primera vez que uso react despues de ver un tutorial en internet :) vamos a ver que se logra hacer",
-            "id":1
-        },
-        {
-            "titulo":"Poner CSS",
-            "contenido":"Tengo que poner estilos con ccs, pero como tarda :* jajajaja",
-            "id":2
-        },
-        {
-            "titulo":"Hacer ejercicio",
-            "contenido":"A las 7pm hoy tengo que hacer una hora de ejercicio para relajarme",
-            "id":3
-        }
-    ]
+  "lista": [
+    {
+      "titulo": "Pagina web",
+      "contenido": "Primera vez que uso react despues de ver un tutorial en internet :) vamos a ver que se logra hacer",
+      "id": 1
+    },
+    {
+      "titulo": "Poner CSS",
+      "contenido": "Tengo que poner estilos con ccs, pero como tarda :* jajajaja",
+      "id": 2
+    },
+    {
+      "titulo": "Hacer ejercicio",
+      "contenido": "A las 7pm hoy tengo que hacer una hora de ejercicio para relajarme",
+      "id": 3
+    },
+    {
+      "titulo": "cuarto intento jaja",
+      "contenido": "la cuarta es la vencida ahora creo que si va a funcionar",
+      "id": 4
+    },
+    {
+      "titulo": "esta nueva prueba",
+      "contenido": "cuando le de a agregar se va a agregar y me va a llevar a home",
+      "id": 5
+    }
+  ]
 }

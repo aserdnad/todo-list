@@ -72,4 +72,52 @@ a{
   box-shadow: rgb(144, 224, 239) 2px 2px;
 }
 
+.but-todo{
+  margin: 5px;
+  background-color: rgb(229, 238, 240);
+  border: none;
+  border-radius: 10px;
+  margin-left: 45%;
+}
+
+.listo-p{
+  text-decoration: line-through;
+}
+
 /* fin estilo lista */
+
+/* comienzo form */
+.new-todo-list{
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.columna-todo{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin-top: 10px;
+}
+
+label{
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.agregar-lista{
+  margin-top: 35px;
+  margin-left: 32%;
+  width: 100px;
+  background-color:rgb(128, 255, 219);
+  padding: 5px;
+  border-radius: 10px;
+  color:rgb(3, 7, 30);
+}
+
+
+/* final form */
